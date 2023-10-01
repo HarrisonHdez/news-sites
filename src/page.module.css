@@ -1,0 +1,151 @@
+.navbar {
+  width: 100%;
+  background-color: rgb(0, 89, 255);
+  position: fixed;
+}
+.navbar__content {
+  padding: 20px 0;
+}
+.navbar__logo {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 35px;
+}
+/* Home */
+.home {
+  width: 100%;
+}
+.home__content {
+  min-height: 611px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+.home__title {
+  color: #000000;
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 38px;
+  font-style: normal;
+  line-height: 55px;
+  letter-spacing: 1.2px;
+}
+
+.home__subtitle {
+  color: #878787;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  max-width: 722px;
+  width: 100%;
+  line-height: 27px;
+  letter-spacing: 0.3px;
+  margin: 24px 0 65px;
+}
+
+@media screen and (min-width: 360px) {
+  .home__title {
+    font-size: 44px;
+  }
+}
+@media screen and (min-width: 575px) {
+  .home__title {
+    max-width: 445px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .home__title {
+    font-size: 55px;
+    line-height: 65px;
+    max-width: 610px;
+  }
+  .home__subtitle {
+    font-size: 20px;
+  }
+  .home__button {
+    width: initial;
+    max-width: initial;
+  }
+}
+@media screen and (min-width: 992px) {
+  .home__title {
+    font-size: 80px;
+    line-height: 86.4px;
+    max-width: 800px;
+  }
+
+  .home__bold {
+    display: flex;
+    position: absolute;
+    left: 150px;
+    top: 645px;
+    transition: transform 1s ease-in-out;
+    animation: float 3s ease-in-out infinite;
+  }
+  .home__bold2 {
+    display: flex;
+    position: absolute;
+    right: 170px;
+    top: 695px;
+    transition: transform 1s ease-in-out;
+    animation: float 3s ease-in-out infinite;
+  }
+  .home__star {
+    left: 236px;
+    top: 522px;
+  }
+  .home__star2 {
+    right: 140px;
+    top: 445px;
+  }
+}
+
+/*____________ Home ___________*/
+
+.news__content {
+}
+
+.news__cardContainer {
+}
+.news__title {
+  color: #000000;
+  font-size: 60px;
+  text-align: center;
+}
+.news__cardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.news__card {
+  padding: 20px;
+  background-color: #fff;
+  max-width: 380px;
+  min-height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+}
+.news__article {
+  color: blueviolet;
+  font-size: 25px;
+  font-weight: 600;
+}
+.news__paragraph {
+  font-size: 18px;
+  font-weight: 400;
+}
+.news__image {
+  width: 100%;
+  min-height: 300px;
+  object-fit: cover;
+  border-radius: 18px;
+}
