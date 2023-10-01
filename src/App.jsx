@@ -9,12 +9,12 @@ function App() {
         <Navbar />
         <div className={`container ${styles.home__content}`}>
           <h1
-            className={`${styles.home__title} animate__animated animate__fadeInUp`}
+            className={styles.home__title}
           >
             Technology News <br /> Your main source of news.
           </h1>
           <p
-            className={`${styles.home__subtitle} animate__animated animate__fadeInUp`}
+            className={styles.home__subtitle}
           >
             Stay up to date with the latest news and events
           </p>
