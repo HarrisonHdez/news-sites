@@ -11,16 +11,13 @@ function App() {
           <h1
             className={`${styles.home__title} animate__animated animate__fadeInUp`}
           >
-            US News Today <br />
-            Your Top Source for US News
+            Technology News <br /> Your main source of news.
           </h1>
           <p
             className={`${styles.home__subtitle} animate__animated animate__fadeInUp`}
           >
-            Stay Up to Date with the Latest News and Events Across the United
-            States
+            Stay up to date with the latest news and events
           </p>
-
         </div>
       </header>
 

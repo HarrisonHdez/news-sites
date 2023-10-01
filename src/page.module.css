@@ -145,7 +145,7 @@
 }
 .news__image {
   width: 100%;
-  min-height: 300px;
+  min-height: 350px;
   object-fit: cover;
   border-radius: 18px;
 }
