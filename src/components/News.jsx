@@ -19,28 +19,6 @@ const News = () => {
   }, []);
 
   return (
-    // <main>
-    //   <section className={styles.news}>
-    //     <div className={`container ${styles.news__content}`}>
-    //       <h1 className={styles.news__title}>Last News</h1>
-    //       <div className={styles.news__card}>
-    //         <ul>
-    //           {news.map((article) => (
-    //             <li key={article.title}>
-    //               <a href={article.url} target="_blank" rel="noopener noreferrer">
-    //                 <h2>{article.title}</h2>
-    //               </a>
-    //               <p>{article.description}</p>
-    //               {article.urlToImage && (
-    //                 <img className={styles.news__image} src={article.urlToImage} alt={article.title} />
-    //               )}
-    //             </li>
-    //           ))}
-    //         </ul>
-    //       </div>
-    //     </div>
-    //   </section>
-    // </main>
     <main>
   <section className={styles.news}>
     <div className={`container ${styles.news__content}`}>
